@@ -1,0 +1,9 @@
+:root {
+  --background-color: white;
+}
+
+[data-bs-theme=dark] {
+  --background-color: black;
+}
+
+/*# sourceMappingURL=variables.css.map */
