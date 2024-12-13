@@ -1,5 +1,6 @@
 # Project Name: Collab Dating Apps
-### Description: There are many dating apps in the market nowadays, and every single one of them targets the audience in a different way by the way they approach possible users.
+### Description: 
+There are many dating apps in the market nowadays, and every single one of them targets the audience in a different way by the way they approach possible users.
 
 ### After doing some research and even interviewing people from different ages and interests, I came to the conclusion that the Dating App World still can be improved. Therefore, I consider this is a good idea for my Project.
 
