@@ -14,7 +14,35 @@ body {
     color: var(--text-color);
 }
 
+//logo
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+        max-width: 15%;
+        height: auto;
+    }
+}
+
 //Navbar
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        background-color: transparent;
+        border: none;
+    }
+
+    button.overlay {
+        position: absolute;
+        font-family: "Arvo", serif;
+        background-color: none;
+    }
+}
 
 //Header
 header {
@@ -26,11 +54,12 @@ header {
             grid-template-columns: 1fr 1fr;
             .col {
                 h1 {
-                    //
+                    color: var(--h1-color);
                 }
                 ul {
                     li {
                         list-style: none;
+                        color: var(--li-color);
                     }
                 }
                 img {
@@ -47,7 +76,19 @@ header {
 //Gradients
 //gradient background for Logo
 .gradient-bkgr {
-    background: linear-gradient(190deg, #114AB1, #6793AC, #E4580B);
+    background: linear-gradient(190deg, #E68369, #ECCEAE, #131842);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
 }
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

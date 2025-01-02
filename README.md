@@ -5,7 +5,8 @@ After doing some research and even interviewing people from different ages and i
 
 ## Project Structure
 1. Navbar
-### Hidden navbar for a better user experience
+-Hidden navbar for a better user experience.
+-The general menu can be accessed by clicking on the "Collab" logo.
+
 2. Hero Section
-### Welcoming section to the website
-1. Hero section welcomes the user with the name of the website "Collab", and a small introduction.
+Hero section welcomes the user with the name of the website "Collab", a small introduction, and buttons to download the Collab App for both Android and iOS.
