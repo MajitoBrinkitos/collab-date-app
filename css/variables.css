@@ -2,15 +2,25 @@
 :root {
   --background-color: white;
   --text-color: black;
+  --nav-bkg: #f3e8d6;
+  --nav-color: #1a1a24;
   --h1-color: black;
   --li-color: black;
+  --header-bkg: #f3e8d6;
+  --btn-bkg: #E68369;
+  --btn-color: #1a1a24;
 }
 
 [data-bs-theme=dark] {
-  --background-color: black;
+  --background-color: #1a1a24;
   --text-color: white;
-  --h1-color: black;
-  --li-color: black;
+  --nav-bkg: #1a1a24;
+  --nav-color: #E68369;
+  --h1-color: #E68369;
+  --li-color: #E68369;
+  --header-bkg: #1a1a24;
+  --btn-bkg: #f3e8d4;
+  --btn-color: #1a1a24;
 }
 
 /*# sourceMappingURL=variables.css.map */

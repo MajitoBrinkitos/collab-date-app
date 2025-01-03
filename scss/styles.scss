@@ -1,5 +1,6 @@
 //import variables.scss
 @use 'variables.scss';
+@use 'queries.scss';
 
 * {
     box-sizing: border-box;
@@ -12,6 +13,31 @@ body {
     padding: auto;
     background-color: var(--background-color);
     color: var(--text-color);
+    font-family: 'Arvo', serif;
+}
+
+//Navbar
+nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--nav-bkg);
+    color: white;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 1rem;
+
+        li {
+            font-family: 'Arvo', serif;
+            font-size: 1.2rem;
+            color: var(--nav-color);
+        }
+    }
 }
 
 //logo
@@ -19,54 +45,65 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--logo-bkgr);
+    padding: 0px;
+
     img {
         width: 100%;
-        max-width: 15%;
+        max-width: 25%;
         height: auto;
-    }
-}
-
-//Navbar
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    button {
-        background-color: transparent;
-        border: none;
-    }
-
-    button.overlay {
-        position: absolute;
-        font-family: "Arvo", serif;
-        background-color: none;
     }
 }
 
 //Header
 header {
+    margin: 15px;
+    border-radius: 5%;
     .container {
+        background-color: var(--header-bkg);
         display: grid;
+        border-radius: 5%;
         .row {
             display: grid;
             grid-template-rows: 1fr;
             grid-template-columns: 1fr 1fr;
             .col {
+                display: grid;
+                align-content: space-evenly;
+                justify-content: center;
+                align-items: stretch;
                 h1 {
                     color: var(--h1-color);
+                    font-family: 'Arvo', serif;
                 }
                 ul {
                     li {
                         list-style: none;
                         color: var(--li-color);
+                        font-family: 'Arvo', serif;
+                        font-size: 24px;
                     }
                 }
                 img {
+                    border-radius: 15%;
                     width: 100%;
-                    max-width: 400px;
+                    max-width: 75%;
                 }
                 .welcomeBtn {
+                    #iosBtn {
+                        border-radius: 5px;
+                        padding: 10px;
+                        background-color: var(--btn-bkg);
+                        color: var(--btn-color);
+                        font-family: 'Arvo', serif;
+                    }
+                    #andBtn {
+                        border-radius: 5px;
+                        padding: 10px;
+                        background-color: var(--btn-bkg);
+                        color: var(--btn-color);
+                        font-family: 'Arvo', serif;
+                    }
                 }
             }
         }
