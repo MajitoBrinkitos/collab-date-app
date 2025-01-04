@@ -24,3 +24,14 @@
         });
     });
  });
+
+ //Header Buttons
+ //iOS Btn
+ document.getElementById("iosBtn").onclick = function () {
+    alert("Downloading iOS mobile version");
+}
+
+//andBtn
+document.getElementById("andBtn").onclick = function () {
+    alert("Downloading Android mobile version");
+}

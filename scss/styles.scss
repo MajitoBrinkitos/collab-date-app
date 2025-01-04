@@ -36,6 +36,10 @@ nav {
             font-family: 'Arvo', serif;
             font-size: 1.2rem;
             color: var(--nav-color);
+            a {
+                text-decoration: none;
+                color: var(--nav-color);
+            }
         }
     }
 }
