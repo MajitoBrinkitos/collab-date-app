@@ -16,29 +16,34 @@ body {
     font-family: 'Arvo', serif;
 }
 
-//Navbar
+//Navigation Menu
 nav {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    padding: 1rem;
     background-color: var(--nav-bkg);
-    color: white;
-    ul {
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        gap: 1rem;
+    color: var(--nav-color);
+    font-family: "Rowdies", serif;
 
-        li {
-            font-family: 'Arvo', serif;
-            font-size: 1.2rem;
-            color: var(--nav-color);
-            a {
-                text-decoration: none;
-                color: var(--nav-color);
+    .container-fluid {
+        .navbar-brand {
+            font-size: 2.5rem;
+        }
+
+        .navbar-collapse {
+            ul {
+                list-style-type: none;
+                margin-left: 10px;
+                padding: 0;
+                display: flex;
+                justify-content: space-around;
+                li {
+                    font-size: 28px;
+                    .nav-link {
+                        color: var(--nav-color);
+                        text-decoration: none;
+                        &:hover {
+                            color: grey;
+                        }
+                    }
+                }
             }
         }
     }
@@ -109,6 +114,26 @@ header {
                         font-family: 'Arvo', serif;
                     }
                 }
+            }
+        }
+    }
+}
+
+//Features Section
+.features {
+    background-color: var(--ft-bkg);
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 20px;
+        .card {
+            background-color: black;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 30%;
             }
         }
     }

@@ -12,11 +12,15 @@ The Navigation Bar contains the menu with the following sections:
 -Stories
 -Contact
 
+This is a hidden menu that can be accessed through the hamburger icon. The goal is a minimalist layout for the user.
+
 2. Logo Section
 The logo section is located at the top of the page, after the Navigation Bar, and contains the logo of the app.
 
 3. Hero Header
 This section introduces the user and the application, with a welcoming message and two buttons to download the mobile app.
+
+4. Features Section
 
 ## Features
 1. Moving background
